@@ -1,0 +1,56 @@
+﻿@page "/QuizViewer"
+
+@using QuizApp.Data
+
+<h3>QuizViewer</h3>
+
+<p>What is the capital of @question.QuestionCountry?</p>
+
+@foreach (string option in question.Options)
+{
+    var buttonText = option;
+    <button class="btn btn-primary" @onclick="@(e => GetNewQuestion(buttonText))">@option</button>
+}
+
+@*<p>@answer</p>*@
+<p>Score: @score</p>
+
+@code {
+    static string filename = "C:/Users/Thomas/source/repos/QuizApp/QuizApp/wwwroot/Countries/country-capitals.csv";
+    static CsvReader csvreader = new CsvReader(filename);
+    static List<Country> countries = csvreader.ReadAllCountries();
+    public static QuizItem question = new QuizItem(countries);
+    public int score = 0;
+    public string answer = question.QuestionAnswer;
+
+
+    public void GetNewQuestion(string resp)
+    {
+        if (resp == question.QuestionAnswer)
+        {
+            question = new QuizItem(countries);
+            answer = question.QuestionAnswer;
+            score++;
+        }
+        else
+        {
+            question = new QuizItem(countries);
+            answer = question.QuestionAnswer;
+        }
+
+    }
+
+    //bool quizStarted = false;
+    public bool CheckAnswer(string answer, QuizItem question)
+    {
+        if (answer == question.QuestionAnswer)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+}
