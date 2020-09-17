@@ -9,15 +9,12 @@ C:\Users\Thomas\source\repos\QuizApp\QuizApp\bin\Debug\netcoreapp3.1\QuizApp.dll
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\bin\Debug\netcoreapp3.1\QuizApp.pdb
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\bin\Debug\netcoreapp3.1\QuizApp.Views.dll
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\bin\Debug\netcoreapp3.1\QuizApp.Views.pdb
-C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.csprojAssemblyReference.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.AssemblyInfoInputs.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.AssemblyInfo.cs
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.csproj.CoreCompileInputs.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.RazorComponent.input.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\QuizViewer.razor.g.cs
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
@@ -29,8 +26,6 @@ C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.Tag
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.TagHelpers.output.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.RazorCoreGenerate.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\Razor\Pages\QuizViewer.razor.g.cs
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
@@ -50,3 +45,4 @@ C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.dll
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.pdb
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.genruntimeconfig.cache
 C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.csproj.CopyComplete
+C:\Users\Thomas\source\repos\QuizApp\QuizApp\obj\Debug\netcoreapp3.1\QuizApp.csprojAssemblyReference.cache

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
+using Microsoft.AspNetCore.StaticFiles;
 
 namespace QuizApp
 {
@@ -39,8 +40,9 @@ namespace QuizApp
 
             string name = parts[0];
             string cap = parts[1];
+            string region = parts[5];
 
-            return new Country(name, cap);
+            return new Country(name, cap, region);
         }
     }
 }

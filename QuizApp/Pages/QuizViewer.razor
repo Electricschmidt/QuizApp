@@ -3,7 +3,14 @@
 @using QuizApp.Data
 
 <h3>QuizViewer</h3>
+@if (quizStarted == false)
+{
+    <h2>Welcome to the capital cities quiz!</h2>
+    <button class="btn btn-primary" @onclick="StartQuiz">Press to begin</button>
+}
 
+else
+{
 <p>What is the capital of @question.QuestionCountry?</p>
 
 @foreach (string option in question.Options)
@@ -14,15 +21,20 @@
 
 @*<p>@answer</p>*@
 <p>Score: @score</p>
-
+}
 @code {
-    static string filename = "C:/Users/Thomas/source/repos/QuizApp/QuizApp/wwwroot/Countries/country-capitals.csv";
+    static string filename = "wwwroot/Countries/country-capitals.csv";
     static CsvReader csvreader = new CsvReader(filename);
     static List<Country> countries = csvreader.ReadAllCountries();
     public static QuizItem question = new QuizItem(countries);
     public int score = 0;
+    bool quizStarted = false;
     public string answer = question.QuestionAnswer;
 
+    public void StartQuiz()
+    {
+        quizStarted = true;
+    }
 
     public void GetNewQuestion(string resp)
     {
@@ -40,7 +52,7 @@
 
     }
 
-    //bool quizStarted = false;
+
     public bool CheckAnswer(string answer, QuizItem question)
     {
         if (answer == question.QuestionAnswer)

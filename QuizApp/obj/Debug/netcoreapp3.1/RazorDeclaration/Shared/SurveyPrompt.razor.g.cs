@@ -57,20 +57,27 @@ using Microsoft.AspNetCore.Components.Web;
 #nullable disable
 #nullable restore
 #line 7 "C:\Users\Thomas\source\repos\QuizApp\QuizApp\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.StaticFiles;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "C:\Users\Thomas\source\repos\QuizApp\QuizApp\_Imports.razor"
-using QuizApp;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\Thomas\source\repos\QuizApp\QuizApp\_Imports.razor"
+using QuizApp;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "C:\Users\Thomas\source\repos\QuizApp\QuizApp\_Imports.razor"
 using QuizApp.Shared;
 
 #line default
